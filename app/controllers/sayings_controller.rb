@@ -1,7 +1,7 @@
 class SayingsController < ApplicationController
 
 	def index
-		@phrase = Saying.first
+		@saying = Saying.order("RANDOM()").first
 	end
 
 end
