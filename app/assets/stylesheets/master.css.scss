@@ -1,21 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
 
+html, body { 
+	overflow-x: hidden; 
+}
+
 .staticheader{
 	color: #E6255B;
 }
 
-.navbar.navbar-inverse {
+.navbar{
 	background:url('/assets/dark_embroidery.png');
-	border-radius: 0px;
+	border-radius: 0;
 
 }
 
 .navbar-brand {
+	color: #E8851C;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 200%;
+	font-size: 3em;
 }
 
-.navigation-links {
-	color: #F2711B;
+
+
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
 }
